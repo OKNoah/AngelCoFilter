@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Noah Gray</string>
+	<key>Builder Version</key>
+	<string>13604.4.7.1.3</string>
+	<key>CFBundleDisplayName</key>
+	<string>AngelCoFilter</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.rainycode.angelcofilter</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<integer>10485760</integer>
+		<key>Global Page</key>
+		<string>index.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>toggle-angelco</string>
+				<key>Identifier</key>
+				<string>AngelCo</string>
+				<key>Image</key>
+				<string>AppIcon.appiconset/angelco-128.png</string>
+				<key>Include By Default</key>
+				<false/>
+				<key>Label</key>
+				<string>AngelCo</string>
+				<key>Palette Label</key>
+				<string>AngelCo</string>
+				<key>Tool Tip</key>
+				<string>AngelCo</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Content Blocker</key>
+		<string>content-blocker.json</string>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>main.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Filter out some AngelList jobs</string>
+	<key>DeveloperIdentifier</key>
+	<string>NX589645Y6</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/oknoah</string>
+</dict>
+</plist>

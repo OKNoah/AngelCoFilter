@@ -1,0 +1,30 @@
+{
+  "name": "AngelCoFilter.safariextension",
+  "version": "1.0.0",
+  "description": "Filter out Angel.co jobs by keyword (e.g. Blockchain)",
+  "main": "index.js",
+  "author": "Noah Gray",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "dev": "nodemon --watch ./src --exec yarn run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.34",
+    "@babel/core": "^7.0.0-beta.34",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.36",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.34",
+    "@babel/polyfill": "^7.0.0-beta.34",
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "@babel/preset-stage-0": "^7.0.0-beta.34",
+    "@babel/runtime": "^7.0.0-beta.34",
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^8.0.0-beta.0",
+    "copy-webpack-plugin": "^4.3.1",
+    "eslint": "^4.14.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "core-decorators": "^0.20.0"
+  }
+}

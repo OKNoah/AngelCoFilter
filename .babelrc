@@ -1,0 +1,13 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "browsers": ["safari >= 10"]
+      }
+    }],
+    "@babel/preset-stage-0"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-class-properties", { "loose" : true }]
+  ]
+}

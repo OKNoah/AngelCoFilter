@@ -1,0 +1,9 @@
+[{
+    "trigger": {
+        "url-filter": "webkit.org"
+    },
+    "action": {
+        "selector": "#logo",
+        "type": "css-display-none"
+    }
+}]
